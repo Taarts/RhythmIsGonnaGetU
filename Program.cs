@@ -100,9 +100,9 @@ namespace RhythmIsGonnaGetU
                         Console.WriteLine($"Would you like to..? Add an Albu(M) for this band: [Y/N]\n ");
                         var answer = Console.ReadLine();
                         if (var)
-                            // return newBand;
+                            return newBand;
 
-                            break;
+                        break;
                 }
             }
         }
